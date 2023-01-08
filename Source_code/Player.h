@@ -32,8 +32,10 @@ class Player {
 
     private:
         Vector2 playerPos;
+        Vector2 lookingDir;
         float velocity;
         Color color;
+        float angle;
         
 
 };

@@ -10,6 +10,7 @@
 #include <string>
 #include <fstream>
 #include <filesystem>
+#include <math.h>
 
 #define MAP_COUNT 1     // How many levels there are
 
@@ -17,7 +18,6 @@
 #define MINIMAP_RESOLUTION 20    // Size for each cell shown on minimap
 #define COLUMNS 20
 #define ROWS 20
-
 
 
 struct WallEdges

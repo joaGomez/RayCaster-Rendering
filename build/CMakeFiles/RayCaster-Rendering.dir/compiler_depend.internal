@@ -211,6 +211,22 @@ CMakeFiles/RayCaster-Rendering.dir/Game.cpp.obj
  C:/MinGW/include/c++/11.2.0/pstl/execution_defs.h
  C:/MinGW/include/c++/11.2.0/bits/fs_dir.h
  C:/MinGW/include/c++/11.2.0/bits/fs_ops.h
+ C:/MinGW/include/c++/11.2.0/math.h
+ C:/MinGW/include/c++/11.2.0/cmath
+ C:/MinGW/x86_64-w64-mingw32/include/math.h
+ C:/MinGW/include/c++/11.2.0/bits/specfun.h
+ C:/MinGW/include/c++/11.2.0/tr1/gamma.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/special_function_util.h
+ C:/MinGW/include/c++/11.2.0/tr1/bessel_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/beta_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/ell_integral.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/exp_integral.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/hypergeometric.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/legendre_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/modified_bessel_func.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/poly_hermite.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/poly_laguerre.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/riemann_zeta.tcc
  C:/Users/joako/OneDrive/Escritorio/Storage/RayCaster-Rendering/Source_code/Map.h
 
 CMakeFiles/RayCaster-Rendering.dir/Gameview.cpp.obj
@@ -422,6 +438,22 @@ CMakeFiles/RayCaster-Rendering.dir/Gameview.cpp.obj
  C:/MinGW/include/c++/11.2.0/pstl/execution_defs.h
  C:/MinGW/include/c++/11.2.0/bits/fs_dir.h
  C:/MinGW/include/c++/11.2.0/bits/fs_ops.h
+ C:/MinGW/include/c++/11.2.0/math.h
+ C:/MinGW/include/c++/11.2.0/cmath
+ C:/MinGW/x86_64-w64-mingw32/include/math.h
+ C:/MinGW/include/c++/11.2.0/bits/specfun.h
+ C:/MinGW/include/c++/11.2.0/tr1/gamma.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/special_function_util.h
+ C:/MinGW/include/c++/11.2.0/tr1/bessel_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/beta_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/ell_integral.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/exp_integral.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/hypergeometric.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/legendre_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/modified_bessel_func.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/poly_hermite.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/poly_laguerre.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/riemann_zeta.tcc
  C:/Users/joako/OneDrive/Escritorio/Storage/RayCaster-Rendering/Source_code/Map.h
 
 CMakeFiles/RayCaster-Rendering.dir/Map.cpp.obj
@@ -633,6 +665,22 @@ CMakeFiles/RayCaster-Rendering.dir/Map.cpp.obj
  C:/MinGW/include/c++/11.2.0/pstl/execution_defs.h
  C:/MinGW/include/c++/11.2.0/bits/fs_dir.h
  C:/MinGW/include/c++/11.2.0/bits/fs_ops.h
+ C:/MinGW/include/c++/11.2.0/math.h
+ C:/MinGW/include/c++/11.2.0/cmath
+ C:/MinGW/x86_64-w64-mingw32/include/math.h
+ C:/MinGW/include/c++/11.2.0/bits/specfun.h
+ C:/MinGW/include/c++/11.2.0/tr1/gamma.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/special_function_util.h
+ C:/MinGW/include/c++/11.2.0/tr1/bessel_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/beta_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/ell_integral.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/exp_integral.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/hypergeometric.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/legendre_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/modified_bessel_func.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/poly_hermite.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/poly_laguerre.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/riemann_zeta.tcc
 
 CMakeFiles/RayCaster-Rendering.dir/Player.cpp.obj
  C:/Users/joako/OneDrive/Escritorio/Storage/RayCaster-Rendering/Source_code/Player.cpp
@@ -842,6 +890,22 @@ CMakeFiles/RayCaster-Rendering.dir/Player.cpp.obj
  C:/MinGW/include/c++/11.2.0/pstl/execution_defs.h
  C:/MinGW/include/c++/11.2.0/bits/fs_dir.h
  C:/MinGW/include/c++/11.2.0/bits/fs_ops.h
+ C:/MinGW/include/c++/11.2.0/math.h
+ C:/MinGW/include/c++/11.2.0/cmath
+ C:/MinGW/x86_64-w64-mingw32/include/math.h
+ C:/MinGW/include/c++/11.2.0/bits/specfun.h
+ C:/MinGW/include/c++/11.2.0/tr1/gamma.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/special_function_util.h
+ C:/MinGW/include/c++/11.2.0/tr1/bessel_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/beta_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/ell_integral.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/exp_integral.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/hypergeometric.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/legendre_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/modified_bessel_func.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/poly_hermite.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/poly_laguerre.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/riemann_zeta.tcc
 
 CMakeFiles/RayCaster-Rendering.dir/main.cpp.obj
  C:/Users/joako/OneDrive/Escritorio/Storage/RayCaster-Rendering/Source_code/main.cpp
@@ -1053,5 +1117,21 @@ CMakeFiles/RayCaster-Rendering.dir/main.cpp.obj
  C:/MinGW/include/c++/11.2.0/pstl/execution_defs.h
  C:/MinGW/include/c++/11.2.0/bits/fs_dir.h
  C:/MinGW/include/c++/11.2.0/bits/fs_ops.h
+ C:/MinGW/include/c++/11.2.0/math.h
+ C:/MinGW/include/c++/11.2.0/cmath
+ C:/MinGW/x86_64-w64-mingw32/include/math.h
+ C:/MinGW/include/c++/11.2.0/bits/specfun.h
+ C:/MinGW/include/c++/11.2.0/tr1/gamma.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/special_function_util.h
+ C:/MinGW/include/c++/11.2.0/tr1/bessel_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/beta_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/ell_integral.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/exp_integral.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/hypergeometric.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/legendre_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/modified_bessel_func.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/poly_hermite.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/poly_laguerre.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/riemann_zeta.tcc
  C:/Users/joako/OneDrive/Escritorio/Storage/RayCaster-Rendering/Source_code/Map.h
 

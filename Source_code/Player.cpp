@@ -5,6 +5,8 @@ Player::Player()
     this->playerPos = {STARTER_POS_X, STARTER_POS_Y};
     this->velocity = STARTER_VELOCITY;
     this->color = PLAYER_COLOR;
+    this->angle = 0.0f;
+    this->lookingDir = {cosf(this->angle), sinf(this->angle)};
 }
 
 Player::~Player()
@@ -14,22 +16,34 @@ Player::~Player()
 
 void Player::update(WallCells* world)
 {
+    float deltaX = 0.0f, deltaY = 0.0f;
+
     if(IsKeyPressed(KEY_A) || IsKeyDown(KEY_A)) {
-        this->playerPos.x = this->playerPos.x - MAP_RESOLUTION/4;
+        this->angle -= 0.1f;
+        if(this->angle < 0) {
+            this->angle += 2*PI;
+        }
+        this->lookingDir = {cosf(this->angle), sinf(this->angle)};
     }
-    else if(IsKeyPressed(KEY_S) || IsKeyDown(KEY_S)) {
-        this->playerPos.y = this->playerPos.y + MAP_RESOLUTION/4;
+    if(IsKeyPressed(KEY_S) || IsKeyDown(KEY_S)) {
+        deltaX -= this->lookingDir.x;
+        deltaY -= this->lookingDir.y;
     }
-    else if(IsKeyPressed(KEY_D) || IsKeyDown(KEY_D)) {
-        this->playerPos.x = this->playerPos.x + MAP_RESOLUTION/4;
+    if(IsKeyPressed(KEY_D) || IsKeyDown(KEY_D)) {
+        this->angle += 0.1f;
+        if(this->angle > 2*PI) {
+            this->angle -= 2*PI;
+        }
+        this->lookingDir = {cosf(this->angle), sinf(this->angle)};
     }
-    else if(IsKeyPressed(KEY_W) || IsKeyDown(KEY_W)) {
-        this->playerPos.y = this->playerPos.y - MAP_RESOLUTION/4;
+    if(IsKeyPressed(KEY_W) || IsKeyDown(KEY_W)) {
+        deltaX += this->lookingDir.x;
+        deltaY += this->lookingDir.y;
     }
 
     // TODO: Validate movement -> make possible move + looking direction
 
-    bool no_pass_flag = false;
+    /*bool no_pass_flag = false;
     for(int i = 0 ; i < ROWS ; i++) {
         for(int j = 0 ; j < COLUMNS ; j++) {
             if(world[ROWS * i + j].wall) {
@@ -44,7 +58,7 @@ void Player::update(WallCells* world)
 
             }
         }
-    }
+    }*/
     //if(!no_pass_flag) {
     //    boss->move(0.0f, 0.0f);
     //    player->move(moveX, moveY);
@@ -59,6 +73,7 @@ void Player::drawOnMiniMap()
     float posY = TRANSFORM_POS_TO_MMAP(this->playerPos.y);
     
     DrawCircle(posX, posY, MINIMAP_RESOLUTION/4, this->color);
+    DrawLine(posX, posY, posX + this->lookingDir.x*5, posY + this->lookingDir.y*5, this->color);
 }
 
 // ------------------
