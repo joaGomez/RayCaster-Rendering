@@ -18,13 +18,15 @@ void Game::deleteVar()
 
 void Game::init(int index)
 {
-    InitWindow(WINDOW_WIDTH, WINDOW_HEIGHT, "RayCaster Rendering");
     this->gameview = new Gameview(index);
+    this->window_height = this->gameview->map->mapRows * MAP_RESOLUTION;
+    this->window_width = this->gameview->map->mapColumns * MAP_RESOLUTION;
+    InitWindow(this->window_width, this->window_height, "RayCaster Rendering");
 }
 
 void Game::update()
 {
-    this->gameview->player->update();
+    this->gameview->update();
 }
 
 void Game::render()

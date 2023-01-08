@@ -20,8 +20,11 @@ class Game {
         // Variables
         Gameview* gameview;
         Map* map;
-
+        int window_width;
+        int window_height;
+        
     private:
+
 
 };
 

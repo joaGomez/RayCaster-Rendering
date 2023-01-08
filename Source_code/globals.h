@@ -11,9 +11,30 @@
 #include <fstream>
 #include <filesystem>
 
-#define MAP_COUNT 1
-#define WINDOW_HEIGHT   800
-#define WINDOW_WIDTH    800
+#define MAP_COUNT 1     // How many levels there are
+
+#define MAP_RESOLUTION 40  // Size for each map cell on the window distribution
+#define MINIMAP_RESOLUTION 20    // Size for each cell shown on minimap
+#define COLUMNS 20
+#define ROWS 20
+
+
+
+struct WallEdges
+{
+	float sx, sy; // Start coordinate
+	float ex, ey; // End coordinate
+};
+
+struct WallCells
+{
+	int edge_id[4];
+	bool edge_exist[4];
+	bool wall = false;
+    bool door = false;
+};
+
+
 
 #endif  // INITIALS_H
 

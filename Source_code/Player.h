@@ -6,8 +6,10 @@
 #define STARTER_POS_X 100
 #define STARTER_POS_Y 100
 #define STARTER_VELOCITY 1.0f
-#define PLAYER_COLOR RED
+#define PLAYER_COLOR YELLOW
 
+#define TRANSFORM_POS_TO_MMAP(x) (x*MINIMAP_RESOLUTION/MAP_RESOLUTION + 10) 
+// Transforms player position to minimap coordinates
 
 class Player {
     public:
@@ -15,7 +17,7 @@ class Player {
         ~Player();
 
         // Functions
-        void update();
+        void update(WallCells* world);
         void drawOnMiniMap();
 
         // Setters

@@ -31,7 +31,6 @@ bool Map::init(int index)
     int j = 0;      // Rows
 
     if(file.is_open()) {
-        // TODO: PROBLEM READING THE FILE
         int index = 0;
         while(getline(file, line)) {
             for(int i = 0 ; i < line.length() ; i++) {
@@ -48,21 +47,6 @@ bool Map::init(int index)
                 }
             }
         }
-
-
-        /*while(getline(file, line)) {
-            for(int i = 0 ;  i < line.length() ; i++) {
-                if(line[i] == '1' ) {
-                    this->world[ j * this->mapColumns + i ].wall = true;
-				    //this->existingWalls.push_back({j * MAP_RESOLUTION, i * MAP_RESOLUTION});
-                }
-                else if(line[i] == '2' ) {
-                    this->world[ j * this->mapColumns + i ].door = true;
-				    //this->existingWalls.push_back({j * MAP_RESOLUTION, i * MAP_RESOLUTION});
-                }
-            }
-            j++;
-        }*/
         return true;
     }
     else {
@@ -72,8 +56,6 @@ bool Map::init(int index)
 
 void Map::drawMiniMap()
 {
-    BeginDrawing();
-    ClearBackground(BLACK);
     Color color;
     for(int i = 0 ; i < 20 ; i++ ) {
         for(int j = 0 ; j < 20 ; j++ ) {        // Draw every map cell
@@ -86,14 +68,12 @@ void Map::drawMiniMap()
             else {
                 color = BLACK;
             }
-            DrawRectangle( j * MAP_RESOLUTION, i * MAP_RESOLUTION, 
-            MAP_RESOLUTION, MAP_RESOLUTION, color);
+            DrawRectangle( j * MINIMAP_RESOLUTION + 10, i * MINIMAP_RESOLUTION + 10, 
+            MINIMAP_RESOLUTION, MINIMAP_RESOLUTION, color);
         }
     }
 
     DrawFPS(10, 10);
-
-    EndDrawing();
 }
 
 void Map::renderMap(Vector2 playerPos)

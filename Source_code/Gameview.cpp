@@ -19,7 +19,7 @@ void Gameview::init(int index)
 
 void Gameview::update()
 {
-    player->update();
+    player->update(this->map->world);
 }
 
 void Gameview::render()

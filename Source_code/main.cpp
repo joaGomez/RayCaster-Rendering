@@ -4,11 +4,11 @@ int main(int, char**) {
     Game* new_game = new Game(1);
     
     SetTargetFPS(30);
-    float frame = 0.0f;
+    int frame = 0;
 
     while(!WindowShouldClose()) {
-        new_game->render();
         new_game->update();
+        new_game->render();
     }
 
     CloseWindow();
