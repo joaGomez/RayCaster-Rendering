@@ -13,25 +13,60 @@ CMakeFiles/RayCaster-Rendering.dir/main.cpp.obj: \
  c:\mingw\x86_64-w64-mingw32\include\_mingw_mac.h \
  c:\mingw\x86_64-w64-mingw32\include\_mingw_secapi.h \
  c:\mingw\x86_64-w64-mingw32\include\sdks/_mingw_ddk.h \
- c:\mingw\include\c++\11.2.0\stdlib.h c:\mingw\include\c++\11.2.0\cstdlib \
+ C:/dev/vcpkg/installed/x64-windows/include/raymath.h \
+ c:\mingw\include\c++\11.2.0\math.h c:\mingw\include\c++\11.2.0\cmath \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++config.h \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\os_defines.h \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\cpu_defines.h \
  c:\mingw\include\c++\11.2.0\pstl\pstl_config.h \
- c:\mingw\x86_64-w64-mingw32\include\stdlib.h \
+ c:\mingw\include\c++\11.2.0\bits\cpp_type_traits.h \
+ c:\mingw\include\c++\11.2.0\ext\type_traits.h \
+ c:\mingw\x86_64-w64-mingw32\include\math.h \
+ c:\mingw\x86_64-w64-mingw32\include\crtdefs.h \
  c:\mingw\x86_64-w64-mingw32\include\corecrt.h \
+ c:\mingw\include\c++\11.2.0\bits\std_abs.h \
+ c:\mingw\x86_64-w64-mingw32\include\stdlib.h \
  c:\mingw\x86_64-w64-mingw32\include\corecrt_wstdlib.h \
  c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include-fixed\limits.h \
  c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include-fixed\syslimits.h \
  c:\mingw\x86_64-w64-mingw32\include\limits.h \
- c:\mingw\x86_64-w64-mingw32\include\crtdefs.h \
  c:\mingw\x86_64-w64-mingw32\include\sec_api\stdlib_s.h \
+ c:\mingw\include\c++\11.2.0\stdlib.h \
  c:\mingw\x86_64-w64-mingw32\include\malloc.h \
  c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\mm_malloc.h \
  c:\mingw\x86_64-w64-mingw32\include\errno.h \
- c:\mingw\include\c++\11.2.0\bits\std_abs.h \
- c:\mingw\include\c++\11.2.0\iostream c:\mingw\include\c++\11.2.0\ostream \
- c:\mingw\include\c++\11.2.0\ios c:\mingw\include\c++\11.2.0\iosfwd \
+ c:\mingw\include\c++\11.2.0\bits\specfun.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_algobase.h \
+ c:\mingw\include\c++\11.2.0\bits\functexcept.h \
+ c:\mingw\include\c++\11.2.0\bits\exception_defines.h \
+ c:\mingw\include\c++\11.2.0\ext\numeric_traits.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_pair.h \
+ c:\mingw\include\c++\11.2.0\bits\move.h \
+ c:\mingw\include\c++\11.2.0\type_traits \
+ c:\mingw\include\c++\11.2.0\bits\stl_iterator_base_types.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_iterator_base_funcs.h \
+ c:\mingw\include\c++\11.2.0\bits\concept_check.h \
+ c:\mingw\include\c++\11.2.0\debug\assertions.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_iterator.h \
+ c:\mingw\include\c++\11.2.0\bits\ptr_traits.h \
+ c:\mingw\include\c++\11.2.0\debug\debug.h \
+ c:\mingw\include\c++\11.2.0\bits\predefined_ops.h \
+ c:\mingw\include\c++\11.2.0\limits \
+ c:\mingw\include\c++\11.2.0\tr1\gamma.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\special_function_util.h \
+ c:\mingw\include\c++\11.2.0\tr1\bessel_function.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\beta_function.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\ell_integral.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\exp_integral.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\hypergeometric.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\legendre_function.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\modified_bessel_func.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\poly_hermite.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\poly_laguerre.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\riemann_zeta.tcc \
+ c:\mingw\include\c++\11.2.0\cstdlib c:\mingw\include\c++\11.2.0\iostream \
+ c:\mingw\include\c++\11.2.0\ostream c:\mingw\include\c++\11.2.0\ios \
+ c:\mingw\include\c++\11.2.0\iosfwd \
  c:\mingw\include\c++\11.2.0\bits\stringfwd.h \
  c:\mingw\include\c++\11.2.0\bits\memoryfwd.h \
  c:\mingw\include\c++\11.2.0\bits\postypes.h \
@@ -45,7 +80,6 @@ CMakeFiles/RayCaster-Rendering.dir/main.cpp.obj: \
  c:\mingw\include\c++\11.2.0\exception \
  c:\mingw\include\c++\11.2.0\bits\exception.h \
  c:\mingw\include\c++\11.2.0\bits\exception_ptr.h \
- c:\mingw\include\c++\11.2.0\bits\exception_defines.h \
  c:\mingw\include\c++\11.2.0\bits\cxxabi_init_exception.h \
  c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stddef.h \
  c:\mingw\x86_64-w64-mingw32\include\stddef.h \
@@ -53,23 +87,7 @@ CMakeFiles/RayCaster-Rendering.dir/main.cpp.obj: \
  c:\mingw\include\c++\11.2.0\bits\hash_bytes.h \
  c:\mingw\include\c++\11.2.0\new \
  c:\mingw\include\c++\11.2.0\bits\nested_exception.h \
- c:\mingw\include\c++\11.2.0\bits\move.h \
- c:\mingw\include\c++\11.2.0\type_traits \
  c:\mingw\include\c++\11.2.0\bits\char_traits.h \
- c:\mingw\include\c++\11.2.0\bits\stl_algobase.h \
- c:\mingw\include\c++\11.2.0\bits\functexcept.h \
- c:\mingw\include\c++\11.2.0\bits\cpp_type_traits.h \
- c:\mingw\include\c++\11.2.0\ext\type_traits.h \
- c:\mingw\include\c++\11.2.0\ext\numeric_traits.h \
- c:\mingw\include\c++\11.2.0\bits\stl_pair.h \
- c:\mingw\include\c++\11.2.0\bits\stl_iterator_base_types.h \
- c:\mingw\include\c++\11.2.0\bits\stl_iterator_base_funcs.h \
- c:\mingw\include\c++\11.2.0\bits\concept_check.h \
- c:\mingw\include\c++\11.2.0\debug\assertions.h \
- c:\mingw\include\c++\11.2.0\bits\stl_iterator.h \
- c:\mingw\include\c++\11.2.0\bits\ptr_traits.h \
- c:\mingw\include\c++\11.2.0\debug\debug.h \
- c:\mingw\include\c++\11.2.0\bits\predefined_ops.h \
  c:\mingw\include\c++\11.2.0\cstdint \
  c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stdint.h \
  c:\mingw\x86_64-w64-mingw32\include\stdint.h \
@@ -157,7 +175,7 @@ CMakeFiles/RayCaster-Rendering.dir/main.cpp.obj: \
  c:\mingw\include\c++\11.2.0\filesystem \
  c:\mingw\include\c++\11.2.0\bits\fs_fwd.h \
  c:\mingw\include\c++\11.2.0\chrono c:\mingw\include\c++\11.2.0\ratio \
- c:\mingw\include\c++\11.2.0\limits c:\mingw\include\c++\11.2.0\ctime \
+ c:\mingw\include\c++\11.2.0\ctime \
  c:\mingw\include\c++\11.2.0\bits\parse_numbers.h \
  c:\mingw\include\c++\11.2.0\bits\fs_path.h \
  c:\mingw\include\c++\11.2.0\utility \
@@ -201,19 +219,4 @@ CMakeFiles/RayCaster-Rendering.dir/main.cpp.obj: \
  c:\mingw\include\c++\11.2.0\pstl\execution_defs.h \
  c:\mingw\include\c++\11.2.0\bits\fs_dir.h \
  c:\mingw\include\c++\11.2.0\bits\fs_ops.h \
- c:\mingw\include\c++\11.2.0\math.h c:\mingw\include\c++\11.2.0\cmath \
- c:\mingw\x86_64-w64-mingw32\include\math.h \
- c:\mingw\include\c++\11.2.0\bits\specfun.h \
- c:\mingw\include\c++\11.2.0\tr1\gamma.tcc \
- c:\mingw\include\c++\11.2.0\tr1\special_function_util.h \
- c:\mingw\include\c++\11.2.0\tr1\bessel_function.tcc \
- c:\mingw\include\c++\11.2.0\tr1\beta_function.tcc \
- c:\mingw\include\c++\11.2.0\tr1\ell_integral.tcc \
- c:\mingw\include\c++\11.2.0\tr1\exp_integral.tcc \
- c:\mingw\include\c++\11.2.0\tr1\hypergeometric.tcc \
- c:\mingw\include\c++\11.2.0\tr1\legendre_function.tcc \
- c:\mingw\include\c++\11.2.0\tr1\modified_bessel_func.tcc \
- c:\mingw\include\c++\11.2.0\tr1\poly_hermite.tcc \
- c:\mingw\include\c++\11.2.0\tr1\poly_laguerre.tcc \
- c:\mingw\include\c++\11.2.0\tr1\riemann_zeta.tcc \
  C:/Users/joako/OneDrive/Escritorio/Storage/RayCaster-Rendering/Source_code/Map.h

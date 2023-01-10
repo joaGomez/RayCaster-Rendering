@@ -2,6 +2,7 @@
 #define INITIALS_H
 
 #include "raylib.h"
+#include "raymath.h"
 #include "stdlib.h"
 #include <iostream>
 #include <vector>
@@ -34,7 +35,13 @@ struct WallCells
     bool door = false;
 };
 
-
+struct Rays
+{
+	float distance;
+	Color color;
+	float angle;
+	Vector2 endPoint;
+};
 
 #endif  // INITIALS_H
 

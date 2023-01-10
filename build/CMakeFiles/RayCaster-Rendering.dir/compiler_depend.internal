@@ -16,24 +16,59 @@ CMakeFiles/RayCaster-Rendering.dir/Game.cpp.obj
  C:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h
  C:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h
  C:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h
- C:/MinGW/include/c++/11.2.0/stdlib.h
- C:/MinGW/include/c++/11.2.0/cstdlib
+ C:/dev/vcpkg/installed/x64-windows/include/raymath.h
+ C:/MinGW/include/c++/11.2.0/math.h
+ C:/MinGW/include/c++/11.2.0/cmath
  C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/c++config.h
  C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/os_defines.h
  C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/cpu_defines.h
  C:/MinGW/include/c++/11.2.0/pstl/pstl_config.h
- C:/MinGW/x86_64-w64-mingw32/include/stdlib.h
+ C:/MinGW/include/c++/11.2.0/bits/cpp_type_traits.h
+ C:/MinGW/include/c++/11.2.0/ext/type_traits.h
+ C:/MinGW/x86_64-w64-mingw32/include/math.h
+ C:/MinGW/x86_64-w64-mingw32/include/crtdefs.h
  C:/MinGW/x86_64-w64-mingw32/include/corecrt.h
+ C:/MinGW/include/c++/11.2.0/bits/std_abs.h
+ C:/MinGW/x86_64-w64-mingw32/include/stdlib.h
  C:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h
  C:/MinGW/x86_64-w64-mingw32/include/limits.h
- C:/MinGW/x86_64-w64-mingw32/include/crtdefs.h
  C:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h
+ C:/MinGW/include/c++/11.2.0/stdlib.h
  C:/MinGW/x86_64-w64-mingw32/include/malloc.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h
  C:/MinGW/x86_64-w64-mingw32/include/errno.h
- C:/MinGW/include/c++/11.2.0/bits/std_abs.h
+ C:/MinGW/include/c++/11.2.0/bits/specfun.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_algobase.h
+ C:/MinGW/include/c++/11.2.0/bits/functexcept.h
+ C:/MinGW/include/c++/11.2.0/bits/exception_defines.h
+ C:/MinGW/include/c++/11.2.0/ext/numeric_traits.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_pair.h
+ C:/MinGW/include/c++/11.2.0/bits/move.h
+ C:/MinGW/include/c++/11.2.0/type_traits
+ C:/MinGW/include/c++/11.2.0/bits/stl_iterator_base_types.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_iterator_base_funcs.h
+ C:/MinGW/include/c++/11.2.0/bits/concept_check.h
+ C:/MinGW/include/c++/11.2.0/debug/assertions.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_iterator.h
+ C:/MinGW/include/c++/11.2.0/bits/ptr_traits.h
+ C:/MinGW/include/c++/11.2.0/debug/debug.h
+ C:/MinGW/include/c++/11.2.0/bits/predefined_ops.h
+ C:/MinGW/include/c++/11.2.0/limits
+ C:/MinGW/include/c++/11.2.0/tr1/gamma.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/special_function_util.h
+ C:/MinGW/include/c++/11.2.0/tr1/bessel_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/beta_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/ell_integral.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/exp_integral.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/hypergeometric.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/legendre_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/modified_bessel_func.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/poly_hermite.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/poly_laguerre.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/riemann_zeta.tcc
+ C:/MinGW/include/c++/11.2.0/cstdlib
  C:/MinGW/include/c++/11.2.0/iostream
  C:/MinGW/include/c++/11.2.0/ostream
  C:/MinGW/include/c++/11.2.0/ios
@@ -51,7 +86,6 @@ CMakeFiles/RayCaster-Rendering.dir/Game.cpp.obj
  C:/MinGW/include/c++/11.2.0/exception
  C:/MinGW/include/c++/11.2.0/bits/exception.h
  C:/MinGW/include/c++/11.2.0/bits/exception_ptr.h
- C:/MinGW/include/c++/11.2.0/bits/exception_defines.h
  C:/MinGW/include/c++/11.2.0/bits/cxxabi_init_exception.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h
  C:/MinGW/x86_64-w64-mingw32/include/stddef.h
@@ -59,23 +93,7 @@ CMakeFiles/RayCaster-Rendering.dir/Game.cpp.obj
  C:/MinGW/include/c++/11.2.0/bits/hash_bytes.h
  C:/MinGW/include/c++/11.2.0/new
  C:/MinGW/include/c++/11.2.0/bits/nested_exception.h
- C:/MinGW/include/c++/11.2.0/bits/move.h
- C:/MinGW/include/c++/11.2.0/type_traits
  C:/MinGW/include/c++/11.2.0/bits/char_traits.h
- C:/MinGW/include/c++/11.2.0/bits/stl_algobase.h
- C:/MinGW/include/c++/11.2.0/bits/functexcept.h
- C:/MinGW/include/c++/11.2.0/bits/cpp_type_traits.h
- C:/MinGW/include/c++/11.2.0/ext/type_traits.h
- C:/MinGW/include/c++/11.2.0/ext/numeric_traits.h
- C:/MinGW/include/c++/11.2.0/bits/stl_pair.h
- C:/MinGW/include/c++/11.2.0/bits/stl_iterator_base_types.h
- C:/MinGW/include/c++/11.2.0/bits/stl_iterator_base_funcs.h
- C:/MinGW/include/c++/11.2.0/bits/concept_check.h
- C:/MinGW/include/c++/11.2.0/debug/assertions.h
- C:/MinGW/include/c++/11.2.0/bits/stl_iterator.h
- C:/MinGW/include/c++/11.2.0/bits/ptr_traits.h
- C:/MinGW/include/c++/11.2.0/debug/debug.h
- C:/MinGW/include/c++/11.2.0/bits/predefined_ops.h
  C:/MinGW/include/c++/11.2.0/cstdint
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h
  C:/MinGW/x86_64-w64-mingw32/include/stdint.h
@@ -165,7 +183,6 @@ CMakeFiles/RayCaster-Rendering.dir/Game.cpp.obj
  C:/MinGW/include/c++/11.2.0/bits/fs_fwd.h
  C:/MinGW/include/c++/11.2.0/chrono
  C:/MinGW/include/c++/11.2.0/ratio
- C:/MinGW/include/c++/11.2.0/limits
  C:/MinGW/include/c++/11.2.0/ctime
  C:/MinGW/include/c++/11.2.0/bits/parse_numbers.h
  C:/MinGW/include/c++/11.2.0/bits/fs_path.h
@@ -211,22 +228,6 @@ CMakeFiles/RayCaster-Rendering.dir/Game.cpp.obj
  C:/MinGW/include/c++/11.2.0/pstl/execution_defs.h
  C:/MinGW/include/c++/11.2.0/bits/fs_dir.h
  C:/MinGW/include/c++/11.2.0/bits/fs_ops.h
- C:/MinGW/include/c++/11.2.0/math.h
- C:/MinGW/include/c++/11.2.0/cmath
- C:/MinGW/x86_64-w64-mingw32/include/math.h
- C:/MinGW/include/c++/11.2.0/bits/specfun.h
- C:/MinGW/include/c++/11.2.0/tr1/gamma.tcc
- C:/MinGW/include/c++/11.2.0/tr1/special_function_util.h
- C:/MinGW/include/c++/11.2.0/tr1/bessel_function.tcc
- C:/MinGW/include/c++/11.2.0/tr1/beta_function.tcc
- C:/MinGW/include/c++/11.2.0/tr1/ell_integral.tcc
- C:/MinGW/include/c++/11.2.0/tr1/exp_integral.tcc
- C:/MinGW/include/c++/11.2.0/tr1/hypergeometric.tcc
- C:/MinGW/include/c++/11.2.0/tr1/legendre_function.tcc
- C:/MinGW/include/c++/11.2.0/tr1/modified_bessel_func.tcc
- C:/MinGW/include/c++/11.2.0/tr1/poly_hermite.tcc
- C:/MinGW/include/c++/11.2.0/tr1/poly_laguerre.tcc
- C:/MinGW/include/c++/11.2.0/tr1/riemann_zeta.tcc
  C:/Users/joako/OneDrive/Escritorio/Storage/RayCaster-Rendering/Source_code/Map.h
 
 CMakeFiles/RayCaster-Rendering.dir/Gameview.cpp.obj
@@ -243,24 +244,59 @@ CMakeFiles/RayCaster-Rendering.dir/Gameview.cpp.obj
  C:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h
  C:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h
  C:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h
- C:/MinGW/include/c++/11.2.0/stdlib.h
- C:/MinGW/include/c++/11.2.0/cstdlib
+ C:/dev/vcpkg/installed/x64-windows/include/raymath.h
+ C:/MinGW/include/c++/11.2.0/math.h
+ C:/MinGW/include/c++/11.2.0/cmath
  C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/c++config.h
  C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/os_defines.h
  C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/cpu_defines.h
  C:/MinGW/include/c++/11.2.0/pstl/pstl_config.h
- C:/MinGW/x86_64-w64-mingw32/include/stdlib.h
+ C:/MinGW/include/c++/11.2.0/bits/cpp_type_traits.h
+ C:/MinGW/include/c++/11.2.0/ext/type_traits.h
+ C:/MinGW/x86_64-w64-mingw32/include/math.h
+ C:/MinGW/x86_64-w64-mingw32/include/crtdefs.h
  C:/MinGW/x86_64-w64-mingw32/include/corecrt.h
+ C:/MinGW/include/c++/11.2.0/bits/std_abs.h
+ C:/MinGW/x86_64-w64-mingw32/include/stdlib.h
  C:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h
  C:/MinGW/x86_64-w64-mingw32/include/limits.h
- C:/MinGW/x86_64-w64-mingw32/include/crtdefs.h
  C:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h
+ C:/MinGW/include/c++/11.2.0/stdlib.h
  C:/MinGW/x86_64-w64-mingw32/include/malloc.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h
  C:/MinGW/x86_64-w64-mingw32/include/errno.h
- C:/MinGW/include/c++/11.2.0/bits/std_abs.h
+ C:/MinGW/include/c++/11.2.0/bits/specfun.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_algobase.h
+ C:/MinGW/include/c++/11.2.0/bits/functexcept.h
+ C:/MinGW/include/c++/11.2.0/bits/exception_defines.h
+ C:/MinGW/include/c++/11.2.0/ext/numeric_traits.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_pair.h
+ C:/MinGW/include/c++/11.2.0/bits/move.h
+ C:/MinGW/include/c++/11.2.0/type_traits
+ C:/MinGW/include/c++/11.2.0/bits/stl_iterator_base_types.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_iterator_base_funcs.h
+ C:/MinGW/include/c++/11.2.0/bits/concept_check.h
+ C:/MinGW/include/c++/11.2.0/debug/assertions.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_iterator.h
+ C:/MinGW/include/c++/11.2.0/bits/ptr_traits.h
+ C:/MinGW/include/c++/11.2.0/debug/debug.h
+ C:/MinGW/include/c++/11.2.0/bits/predefined_ops.h
+ C:/MinGW/include/c++/11.2.0/limits
+ C:/MinGW/include/c++/11.2.0/tr1/gamma.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/special_function_util.h
+ C:/MinGW/include/c++/11.2.0/tr1/bessel_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/beta_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/ell_integral.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/exp_integral.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/hypergeometric.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/legendre_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/modified_bessel_func.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/poly_hermite.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/poly_laguerre.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/riemann_zeta.tcc
+ C:/MinGW/include/c++/11.2.0/cstdlib
  C:/MinGW/include/c++/11.2.0/iostream
  C:/MinGW/include/c++/11.2.0/ostream
  C:/MinGW/include/c++/11.2.0/ios
@@ -278,7 +314,6 @@ CMakeFiles/RayCaster-Rendering.dir/Gameview.cpp.obj
  C:/MinGW/include/c++/11.2.0/exception
  C:/MinGW/include/c++/11.2.0/bits/exception.h
  C:/MinGW/include/c++/11.2.0/bits/exception_ptr.h
- C:/MinGW/include/c++/11.2.0/bits/exception_defines.h
  C:/MinGW/include/c++/11.2.0/bits/cxxabi_init_exception.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h
  C:/MinGW/x86_64-w64-mingw32/include/stddef.h
@@ -286,23 +321,7 @@ CMakeFiles/RayCaster-Rendering.dir/Gameview.cpp.obj
  C:/MinGW/include/c++/11.2.0/bits/hash_bytes.h
  C:/MinGW/include/c++/11.2.0/new
  C:/MinGW/include/c++/11.2.0/bits/nested_exception.h
- C:/MinGW/include/c++/11.2.0/bits/move.h
- C:/MinGW/include/c++/11.2.0/type_traits
  C:/MinGW/include/c++/11.2.0/bits/char_traits.h
- C:/MinGW/include/c++/11.2.0/bits/stl_algobase.h
- C:/MinGW/include/c++/11.2.0/bits/functexcept.h
- C:/MinGW/include/c++/11.2.0/bits/cpp_type_traits.h
- C:/MinGW/include/c++/11.2.0/ext/type_traits.h
- C:/MinGW/include/c++/11.2.0/ext/numeric_traits.h
- C:/MinGW/include/c++/11.2.0/bits/stl_pair.h
- C:/MinGW/include/c++/11.2.0/bits/stl_iterator_base_types.h
- C:/MinGW/include/c++/11.2.0/bits/stl_iterator_base_funcs.h
- C:/MinGW/include/c++/11.2.0/bits/concept_check.h
- C:/MinGW/include/c++/11.2.0/debug/assertions.h
- C:/MinGW/include/c++/11.2.0/bits/stl_iterator.h
- C:/MinGW/include/c++/11.2.0/bits/ptr_traits.h
- C:/MinGW/include/c++/11.2.0/debug/debug.h
- C:/MinGW/include/c++/11.2.0/bits/predefined_ops.h
  C:/MinGW/include/c++/11.2.0/cstdint
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h
  C:/MinGW/x86_64-w64-mingw32/include/stdint.h
@@ -392,7 +411,6 @@ CMakeFiles/RayCaster-Rendering.dir/Gameview.cpp.obj
  C:/MinGW/include/c++/11.2.0/bits/fs_fwd.h
  C:/MinGW/include/c++/11.2.0/chrono
  C:/MinGW/include/c++/11.2.0/ratio
- C:/MinGW/include/c++/11.2.0/limits
  C:/MinGW/include/c++/11.2.0/ctime
  C:/MinGW/include/c++/11.2.0/bits/parse_numbers.h
  C:/MinGW/include/c++/11.2.0/bits/fs_path.h
@@ -438,22 +456,6 @@ CMakeFiles/RayCaster-Rendering.dir/Gameview.cpp.obj
  C:/MinGW/include/c++/11.2.0/pstl/execution_defs.h
  C:/MinGW/include/c++/11.2.0/bits/fs_dir.h
  C:/MinGW/include/c++/11.2.0/bits/fs_ops.h
- C:/MinGW/include/c++/11.2.0/math.h
- C:/MinGW/include/c++/11.2.0/cmath
- C:/MinGW/x86_64-w64-mingw32/include/math.h
- C:/MinGW/include/c++/11.2.0/bits/specfun.h
- C:/MinGW/include/c++/11.2.0/tr1/gamma.tcc
- C:/MinGW/include/c++/11.2.0/tr1/special_function_util.h
- C:/MinGW/include/c++/11.2.0/tr1/bessel_function.tcc
- C:/MinGW/include/c++/11.2.0/tr1/beta_function.tcc
- C:/MinGW/include/c++/11.2.0/tr1/ell_integral.tcc
- C:/MinGW/include/c++/11.2.0/tr1/exp_integral.tcc
- C:/MinGW/include/c++/11.2.0/tr1/hypergeometric.tcc
- C:/MinGW/include/c++/11.2.0/tr1/legendre_function.tcc
- C:/MinGW/include/c++/11.2.0/tr1/modified_bessel_func.tcc
- C:/MinGW/include/c++/11.2.0/tr1/poly_hermite.tcc
- C:/MinGW/include/c++/11.2.0/tr1/poly_laguerre.tcc
- C:/MinGW/include/c++/11.2.0/tr1/riemann_zeta.tcc
  C:/Users/joako/OneDrive/Escritorio/Storage/RayCaster-Rendering/Source_code/Map.h
 
 CMakeFiles/RayCaster-Rendering.dir/Map.cpp.obj
@@ -470,24 +472,59 @@ CMakeFiles/RayCaster-Rendering.dir/Map.cpp.obj
  C:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h
  C:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h
  C:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h
- C:/MinGW/include/c++/11.2.0/stdlib.h
- C:/MinGW/include/c++/11.2.0/cstdlib
+ C:/dev/vcpkg/installed/x64-windows/include/raymath.h
+ C:/MinGW/include/c++/11.2.0/math.h
+ C:/MinGW/include/c++/11.2.0/cmath
  C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/c++config.h
  C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/os_defines.h
  C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/cpu_defines.h
  C:/MinGW/include/c++/11.2.0/pstl/pstl_config.h
- C:/MinGW/x86_64-w64-mingw32/include/stdlib.h
+ C:/MinGW/include/c++/11.2.0/bits/cpp_type_traits.h
+ C:/MinGW/include/c++/11.2.0/ext/type_traits.h
+ C:/MinGW/x86_64-w64-mingw32/include/math.h
+ C:/MinGW/x86_64-w64-mingw32/include/crtdefs.h
  C:/MinGW/x86_64-w64-mingw32/include/corecrt.h
+ C:/MinGW/include/c++/11.2.0/bits/std_abs.h
+ C:/MinGW/x86_64-w64-mingw32/include/stdlib.h
  C:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h
  C:/MinGW/x86_64-w64-mingw32/include/limits.h
- C:/MinGW/x86_64-w64-mingw32/include/crtdefs.h
  C:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h
+ C:/MinGW/include/c++/11.2.0/stdlib.h
  C:/MinGW/x86_64-w64-mingw32/include/malloc.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h
  C:/MinGW/x86_64-w64-mingw32/include/errno.h
- C:/MinGW/include/c++/11.2.0/bits/std_abs.h
+ C:/MinGW/include/c++/11.2.0/bits/specfun.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_algobase.h
+ C:/MinGW/include/c++/11.2.0/bits/functexcept.h
+ C:/MinGW/include/c++/11.2.0/bits/exception_defines.h
+ C:/MinGW/include/c++/11.2.0/ext/numeric_traits.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_pair.h
+ C:/MinGW/include/c++/11.2.0/bits/move.h
+ C:/MinGW/include/c++/11.2.0/type_traits
+ C:/MinGW/include/c++/11.2.0/bits/stl_iterator_base_types.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_iterator_base_funcs.h
+ C:/MinGW/include/c++/11.2.0/bits/concept_check.h
+ C:/MinGW/include/c++/11.2.0/debug/assertions.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_iterator.h
+ C:/MinGW/include/c++/11.2.0/bits/ptr_traits.h
+ C:/MinGW/include/c++/11.2.0/debug/debug.h
+ C:/MinGW/include/c++/11.2.0/bits/predefined_ops.h
+ C:/MinGW/include/c++/11.2.0/limits
+ C:/MinGW/include/c++/11.2.0/tr1/gamma.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/special_function_util.h
+ C:/MinGW/include/c++/11.2.0/tr1/bessel_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/beta_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/ell_integral.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/exp_integral.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/hypergeometric.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/legendre_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/modified_bessel_func.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/poly_hermite.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/poly_laguerre.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/riemann_zeta.tcc
+ C:/MinGW/include/c++/11.2.0/cstdlib
  C:/MinGW/include/c++/11.2.0/iostream
  C:/MinGW/include/c++/11.2.0/ostream
  C:/MinGW/include/c++/11.2.0/ios
@@ -505,7 +542,6 @@ CMakeFiles/RayCaster-Rendering.dir/Map.cpp.obj
  C:/MinGW/include/c++/11.2.0/exception
  C:/MinGW/include/c++/11.2.0/bits/exception.h
  C:/MinGW/include/c++/11.2.0/bits/exception_ptr.h
- C:/MinGW/include/c++/11.2.0/bits/exception_defines.h
  C:/MinGW/include/c++/11.2.0/bits/cxxabi_init_exception.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h
  C:/MinGW/x86_64-w64-mingw32/include/stddef.h
@@ -513,23 +549,7 @@ CMakeFiles/RayCaster-Rendering.dir/Map.cpp.obj
  C:/MinGW/include/c++/11.2.0/bits/hash_bytes.h
  C:/MinGW/include/c++/11.2.0/new
  C:/MinGW/include/c++/11.2.0/bits/nested_exception.h
- C:/MinGW/include/c++/11.2.0/bits/move.h
- C:/MinGW/include/c++/11.2.0/type_traits
  C:/MinGW/include/c++/11.2.0/bits/char_traits.h
- C:/MinGW/include/c++/11.2.0/bits/stl_algobase.h
- C:/MinGW/include/c++/11.2.0/bits/functexcept.h
- C:/MinGW/include/c++/11.2.0/bits/cpp_type_traits.h
- C:/MinGW/include/c++/11.2.0/ext/type_traits.h
- C:/MinGW/include/c++/11.2.0/ext/numeric_traits.h
- C:/MinGW/include/c++/11.2.0/bits/stl_pair.h
- C:/MinGW/include/c++/11.2.0/bits/stl_iterator_base_types.h
- C:/MinGW/include/c++/11.2.0/bits/stl_iterator_base_funcs.h
- C:/MinGW/include/c++/11.2.0/bits/concept_check.h
- C:/MinGW/include/c++/11.2.0/debug/assertions.h
- C:/MinGW/include/c++/11.2.0/bits/stl_iterator.h
- C:/MinGW/include/c++/11.2.0/bits/ptr_traits.h
- C:/MinGW/include/c++/11.2.0/debug/debug.h
- C:/MinGW/include/c++/11.2.0/bits/predefined_ops.h
  C:/MinGW/include/c++/11.2.0/cstdint
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h
  C:/MinGW/x86_64-w64-mingw32/include/stdint.h
@@ -619,7 +639,6 @@ CMakeFiles/RayCaster-Rendering.dir/Map.cpp.obj
  C:/MinGW/include/c++/11.2.0/bits/fs_fwd.h
  C:/MinGW/include/c++/11.2.0/chrono
  C:/MinGW/include/c++/11.2.0/ratio
- C:/MinGW/include/c++/11.2.0/limits
  C:/MinGW/include/c++/11.2.0/ctime
  C:/MinGW/include/c++/11.2.0/bits/parse_numbers.h
  C:/MinGW/include/c++/11.2.0/bits/fs_path.h
@@ -665,22 +684,6 @@ CMakeFiles/RayCaster-Rendering.dir/Map.cpp.obj
  C:/MinGW/include/c++/11.2.0/pstl/execution_defs.h
  C:/MinGW/include/c++/11.2.0/bits/fs_dir.h
  C:/MinGW/include/c++/11.2.0/bits/fs_ops.h
- C:/MinGW/include/c++/11.2.0/math.h
- C:/MinGW/include/c++/11.2.0/cmath
- C:/MinGW/x86_64-w64-mingw32/include/math.h
- C:/MinGW/include/c++/11.2.0/bits/specfun.h
- C:/MinGW/include/c++/11.2.0/tr1/gamma.tcc
- C:/MinGW/include/c++/11.2.0/tr1/special_function_util.h
- C:/MinGW/include/c++/11.2.0/tr1/bessel_function.tcc
- C:/MinGW/include/c++/11.2.0/tr1/beta_function.tcc
- C:/MinGW/include/c++/11.2.0/tr1/ell_integral.tcc
- C:/MinGW/include/c++/11.2.0/tr1/exp_integral.tcc
- C:/MinGW/include/c++/11.2.0/tr1/hypergeometric.tcc
- C:/MinGW/include/c++/11.2.0/tr1/legendre_function.tcc
- C:/MinGW/include/c++/11.2.0/tr1/modified_bessel_func.tcc
- C:/MinGW/include/c++/11.2.0/tr1/poly_hermite.tcc
- C:/MinGW/include/c++/11.2.0/tr1/poly_laguerre.tcc
- C:/MinGW/include/c++/11.2.0/tr1/riemann_zeta.tcc
 
 CMakeFiles/RayCaster-Rendering.dir/Player.cpp.obj
  C:/Users/joako/OneDrive/Escritorio/Storage/RayCaster-Rendering/Source_code/Player.cpp
@@ -695,24 +698,59 @@ CMakeFiles/RayCaster-Rendering.dir/Player.cpp.obj
  C:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h
  C:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h
  C:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h
- C:/MinGW/include/c++/11.2.0/stdlib.h
- C:/MinGW/include/c++/11.2.0/cstdlib
+ C:/dev/vcpkg/installed/x64-windows/include/raymath.h
+ C:/MinGW/include/c++/11.2.0/math.h
+ C:/MinGW/include/c++/11.2.0/cmath
  C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/c++config.h
  C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/os_defines.h
  C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/cpu_defines.h
  C:/MinGW/include/c++/11.2.0/pstl/pstl_config.h
- C:/MinGW/x86_64-w64-mingw32/include/stdlib.h
+ C:/MinGW/include/c++/11.2.0/bits/cpp_type_traits.h
+ C:/MinGW/include/c++/11.2.0/ext/type_traits.h
+ C:/MinGW/x86_64-w64-mingw32/include/math.h
+ C:/MinGW/x86_64-w64-mingw32/include/crtdefs.h
  C:/MinGW/x86_64-w64-mingw32/include/corecrt.h
+ C:/MinGW/include/c++/11.2.0/bits/std_abs.h
+ C:/MinGW/x86_64-w64-mingw32/include/stdlib.h
  C:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h
  C:/MinGW/x86_64-w64-mingw32/include/limits.h
- C:/MinGW/x86_64-w64-mingw32/include/crtdefs.h
  C:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h
+ C:/MinGW/include/c++/11.2.0/stdlib.h
  C:/MinGW/x86_64-w64-mingw32/include/malloc.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h
  C:/MinGW/x86_64-w64-mingw32/include/errno.h
- C:/MinGW/include/c++/11.2.0/bits/std_abs.h
+ C:/MinGW/include/c++/11.2.0/bits/specfun.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_algobase.h
+ C:/MinGW/include/c++/11.2.0/bits/functexcept.h
+ C:/MinGW/include/c++/11.2.0/bits/exception_defines.h
+ C:/MinGW/include/c++/11.2.0/ext/numeric_traits.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_pair.h
+ C:/MinGW/include/c++/11.2.0/bits/move.h
+ C:/MinGW/include/c++/11.2.0/type_traits
+ C:/MinGW/include/c++/11.2.0/bits/stl_iterator_base_types.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_iterator_base_funcs.h
+ C:/MinGW/include/c++/11.2.0/bits/concept_check.h
+ C:/MinGW/include/c++/11.2.0/debug/assertions.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_iterator.h
+ C:/MinGW/include/c++/11.2.0/bits/ptr_traits.h
+ C:/MinGW/include/c++/11.2.0/debug/debug.h
+ C:/MinGW/include/c++/11.2.0/bits/predefined_ops.h
+ C:/MinGW/include/c++/11.2.0/limits
+ C:/MinGW/include/c++/11.2.0/tr1/gamma.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/special_function_util.h
+ C:/MinGW/include/c++/11.2.0/tr1/bessel_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/beta_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/ell_integral.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/exp_integral.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/hypergeometric.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/legendre_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/modified_bessel_func.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/poly_hermite.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/poly_laguerre.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/riemann_zeta.tcc
+ C:/MinGW/include/c++/11.2.0/cstdlib
  C:/MinGW/include/c++/11.2.0/iostream
  C:/MinGW/include/c++/11.2.0/ostream
  C:/MinGW/include/c++/11.2.0/ios
@@ -730,7 +768,6 @@ CMakeFiles/RayCaster-Rendering.dir/Player.cpp.obj
  C:/MinGW/include/c++/11.2.0/exception
  C:/MinGW/include/c++/11.2.0/bits/exception.h
  C:/MinGW/include/c++/11.2.0/bits/exception_ptr.h
- C:/MinGW/include/c++/11.2.0/bits/exception_defines.h
  C:/MinGW/include/c++/11.2.0/bits/cxxabi_init_exception.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h
  C:/MinGW/x86_64-w64-mingw32/include/stddef.h
@@ -738,23 +775,7 @@ CMakeFiles/RayCaster-Rendering.dir/Player.cpp.obj
  C:/MinGW/include/c++/11.2.0/bits/hash_bytes.h
  C:/MinGW/include/c++/11.2.0/new
  C:/MinGW/include/c++/11.2.0/bits/nested_exception.h
- C:/MinGW/include/c++/11.2.0/bits/move.h
- C:/MinGW/include/c++/11.2.0/type_traits
  C:/MinGW/include/c++/11.2.0/bits/char_traits.h
- C:/MinGW/include/c++/11.2.0/bits/stl_algobase.h
- C:/MinGW/include/c++/11.2.0/bits/functexcept.h
- C:/MinGW/include/c++/11.2.0/bits/cpp_type_traits.h
- C:/MinGW/include/c++/11.2.0/ext/type_traits.h
- C:/MinGW/include/c++/11.2.0/ext/numeric_traits.h
- C:/MinGW/include/c++/11.2.0/bits/stl_pair.h
- C:/MinGW/include/c++/11.2.0/bits/stl_iterator_base_types.h
- C:/MinGW/include/c++/11.2.0/bits/stl_iterator_base_funcs.h
- C:/MinGW/include/c++/11.2.0/bits/concept_check.h
- C:/MinGW/include/c++/11.2.0/debug/assertions.h
- C:/MinGW/include/c++/11.2.0/bits/stl_iterator.h
- C:/MinGW/include/c++/11.2.0/bits/ptr_traits.h
- C:/MinGW/include/c++/11.2.0/debug/debug.h
- C:/MinGW/include/c++/11.2.0/bits/predefined_ops.h
  C:/MinGW/include/c++/11.2.0/cstdint
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h
  C:/MinGW/x86_64-w64-mingw32/include/stdint.h
@@ -844,7 +865,6 @@ CMakeFiles/RayCaster-Rendering.dir/Player.cpp.obj
  C:/MinGW/include/c++/11.2.0/bits/fs_fwd.h
  C:/MinGW/include/c++/11.2.0/chrono
  C:/MinGW/include/c++/11.2.0/ratio
- C:/MinGW/include/c++/11.2.0/limits
  C:/MinGW/include/c++/11.2.0/ctime
  C:/MinGW/include/c++/11.2.0/bits/parse_numbers.h
  C:/MinGW/include/c++/11.2.0/bits/fs_path.h
@@ -890,22 +910,6 @@ CMakeFiles/RayCaster-Rendering.dir/Player.cpp.obj
  C:/MinGW/include/c++/11.2.0/pstl/execution_defs.h
  C:/MinGW/include/c++/11.2.0/bits/fs_dir.h
  C:/MinGW/include/c++/11.2.0/bits/fs_ops.h
- C:/MinGW/include/c++/11.2.0/math.h
- C:/MinGW/include/c++/11.2.0/cmath
- C:/MinGW/x86_64-w64-mingw32/include/math.h
- C:/MinGW/include/c++/11.2.0/bits/specfun.h
- C:/MinGW/include/c++/11.2.0/tr1/gamma.tcc
- C:/MinGW/include/c++/11.2.0/tr1/special_function_util.h
- C:/MinGW/include/c++/11.2.0/tr1/bessel_function.tcc
- C:/MinGW/include/c++/11.2.0/tr1/beta_function.tcc
- C:/MinGW/include/c++/11.2.0/tr1/ell_integral.tcc
- C:/MinGW/include/c++/11.2.0/tr1/exp_integral.tcc
- C:/MinGW/include/c++/11.2.0/tr1/hypergeometric.tcc
- C:/MinGW/include/c++/11.2.0/tr1/legendre_function.tcc
- C:/MinGW/include/c++/11.2.0/tr1/modified_bessel_func.tcc
- C:/MinGW/include/c++/11.2.0/tr1/poly_hermite.tcc
- C:/MinGW/include/c++/11.2.0/tr1/poly_laguerre.tcc
- C:/MinGW/include/c++/11.2.0/tr1/riemann_zeta.tcc
 
 CMakeFiles/RayCaster-Rendering.dir/main.cpp.obj
  C:/Users/joako/OneDrive/Escritorio/Storage/RayCaster-Rendering/Source_code/main.cpp
@@ -922,24 +926,59 @@ CMakeFiles/RayCaster-Rendering.dir/main.cpp.obj
  C:/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h
  C:/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h
  C:/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h
- C:/MinGW/include/c++/11.2.0/stdlib.h
- C:/MinGW/include/c++/11.2.0/cstdlib
+ C:/dev/vcpkg/installed/x64-windows/include/raymath.h
+ C:/MinGW/include/c++/11.2.0/math.h
+ C:/MinGW/include/c++/11.2.0/cmath
  C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/c++config.h
  C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/os_defines.h
  C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/cpu_defines.h
  C:/MinGW/include/c++/11.2.0/pstl/pstl_config.h
- C:/MinGW/x86_64-w64-mingw32/include/stdlib.h
+ C:/MinGW/include/c++/11.2.0/bits/cpp_type_traits.h
+ C:/MinGW/include/c++/11.2.0/ext/type_traits.h
+ C:/MinGW/x86_64-w64-mingw32/include/math.h
+ C:/MinGW/x86_64-w64-mingw32/include/crtdefs.h
  C:/MinGW/x86_64-w64-mingw32/include/corecrt.h
+ C:/MinGW/include/c++/11.2.0/bits/std_abs.h
+ C:/MinGW/x86_64-w64-mingw32/include/stdlib.h
  C:/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h
  C:/MinGW/x86_64-w64-mingw32/include/limits.h
- C:/MinGW/x86_64-w64-mingw32/include/crtdefs.h
  C:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h
+ C:/MinGW/include/c++/11.2.0/stdlib.h
  C:/MinGW/x86_64-w64-mingw32/include/malloc.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h
  C:/MinGW/x86_64-w64-mingw32/include/errno.h
- C:/MinGW/include/c++/11.2.0/bits/std_abs.h
+ C:/MinGW/include/c++/11.2.0/bits/specfun.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_algobase.h
+ C:/MinGW/include/c++/11.2.0/bits/functexcept.h
+ C:/MinGW/include/c++/11.2.0/bits/exception_defines.h
+ C:/MinGW/include/c++/11.2.0/ext/numeric_traits.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_pair.h
+ C:/MinGW/include/c++/11.2.0/bits/move.h
+ C:/MinGW/include/c++/11.2.0/type_traits
+ C:/MinGW/include/c++/11.2.0/bits/stl_iterator_base_types.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_iterator_base_funcs.h
+ C:/MinGW/include/c++/11.2.0/bits/concept_check.h
+ C:/MinGW/include/c++/11.2.0/debug/assertions.h
+ C:/MinGW/include/c++/11.2.0/bits/stl_iterator.h
+ C:/MinGW/include/c++/11.2.0/bits/ptr_traits.h
+ C:/MinGW/include/c++/11.2.0/debug/debug.h
+ C:/MinGW/include/c++/11.2.0/bits/predefined_ops.h
+ C:/MinGW/include/c++/11.2.0/limits
+ C:/MinGW/include/c++/11.2.0/tr1/gamma.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/special_function_util.h
+ C:/MinGW/include/c++/11.2.0/tr1/bessel_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/beta_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/ell_integral.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/exp_integral.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/hypergeometric.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/legendre_function.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/modified_bessel_func.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/poly_hermite.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/poly_laguerre.tcc
+ C:/MinGW/include/c++/11.2.0/tr1/riemann_zeta.tcc
+ C:/MinGW/include/c++/11.2.0/cstdlib
  C:/MinGW/include/c++/11.2.0/iostream
  C:/MinGW/include/c++/11.2.0/ostream
  C:/MinGW/include/c++/11.2.0/ios
@@ -957,7 +996,6 @@ CMakeFiles/RayCaster-Rendering.dir/main.cpp.obj
  C:/MinGW/include/c++/11.2.0/exception
  C:/MinGW/include/c++/11.2.0/bits/exception.h
  C:/MinGW/include/c++/11.2.0/bits/exception_ptr.h
- C:/MinGW/include/c++/11.2.0/bits/exception_defines.h
  C:/MinGW/include/c++/11.2.0/bits/cxxabi_init_exception.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h
  C:/MinGW/x86_64-w64-mingw32/include/stddef.h
@@ -965,23 +1003,7 @@ CMakeFiles/RayCaster-Rendering.dir/main.cpp.obj
  C:/MinGW/include/c++/11.2.0/bits/hash_bytes.h
  C:/MinGW/include/c++/11.2.0/new
  C:/MinGW/include/c++/11.2.0/bits/nested_exception.h
- C:/MinGW/include/c++/11.2.0/bits/move.h
- C:/MinGW/include/c++/11.2.0/type_traits
  C:/MinGW/include/c++/11.2.0/bits/char_traits.h
- C:/MinGW/include/c++/11.2.0/bits/stl_algobase.h
- C:/MinGW/include/c++/11.2.0/bits/functexcept.h
- C:/MinGW/include/c++/11.2.0/bits/cpp_type_traits.h
- C:/MinGW/include/c++/11.2.0/ext/type_traits.h
- C:/MinGW/include/c++/11.2.0/ext/numeric_traits.h
- C:/MinGW/include/c++/11.2.0/bits/stl_pair.h
- C:/MinGW/include/c++/11.2.0/bits/stl_iterator_base_types.h
- C:/MinGW/include/c++/11.2.0/bits/stl_iterator_base_funcs.h
- C:/MinGW/include/c++/11.2.0/bits/concept_check.h
- C:/MinGW/include/c++/11.2.0/debug/assertions.h
- C:/MinGW/include/c++/11.2.0/bits/stl_iterator.h
- C:/MinGW/include/c++/11.2.0/bits/ptr_traits.h
- C:/MinGW/include/c++/11.2.0/debug/debug.h
- C:/MinGW/include/c++/11.2.0/bits/predefined_ops.h
  C:/MinGW/include/c++/11.2.0/cstdint
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h
  C:/MinGW/x86_64-w64-mingw32/include/stdint.h
@@ -1071,7 +1093,6 @@ CMakeFiles/RayCaster-Rendering.dir/main.cpp.obj
  C:/MinGW/include/c++/11.2.0/bits/fs_fwd.h
  C:/MinGW/include/c++/11.2.0/chrono
  C:/MinGW/include/c++/11.2.0/ratio
- C:/MinGW/include/c++/11.2.0/limits
  C:/MinGW/include/c++/11.2.0/ctime
  C:/MinGW/include/c++/11.2.0/bits/parse_numbers.h
  C:/MinGW/include/c++/11.2.0/bits/fs_path.h
@@ -1117,21 +1138,5 @@ CMakeFiles/RayCaster-Rendering.dir/main.cpp.obj
  C:/MinGW/include/c++/11.2.0/pstl/execution_defs.h
  C:/MinGW/include/c++/11.2.0/bits/fs_dir.h
  C:/MinGW/include/c++/11.2.0/bits/fs_ops.h
- C:/MinGW/include/c++/11.2.0/math.h
- C:/MinGW/include/c++/11.2.0/cmath
- C:/MinGW/x86_64-w64-mingw32/include/math.h
- C:/MinGW/include/c++/11.2.0/bits/specfun.h
- C:/MinGW/include/c++/11.2.0/tr1/gamma.tcc
- C:/MinGW/include/c++/11.2.0/tr1/special_function_util.h
- C:/MinGW/include/c++/11.2.0/tr1/bessel_function.tcc
- C:/MinGW/include/c++/11.2.0/tr1/beta_function.tcc
- C:/MinGW/include/c++/11.2.0/tr1/ell_integral.tcc
- C:/MinGW/include/c++/11.2.0/tr1/exp_integral.tcc
- C:/MinGW/include/c++/11.2.0/tr1/hypergeometric.tcc
- C:/MinGW/include/c++/11.2.0/tr1/legendre_function.tcc
- C:/MinGW/include/c++/11.2.0/tr1/modified_bessel_func.tcc
- C:/MinGW/include/c++/11.2.0/tr1/poly_hermite.tcc
- C:/MinGW/include/c++/11.2.0/tr1/poly_laguerre.tcc
- C:/MinGW/include/c++/11.2.0/tr1/riemann_zeta.tcc
  C:/Users/joako/OneDrive/Escritorio/Storage/RayCaster-Rendering/Source_code/Map.h
 

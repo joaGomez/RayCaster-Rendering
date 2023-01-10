@@ -24,7 +24,7 @@ void Gameview::update()
 
 void Gameview::render()
 {
-    map->renderMap(player->getPlayerPos());
+    map->renderMap(player->playerPos);
     map->drawMiniMap();
     player->drawOnMiniMap();
 }
