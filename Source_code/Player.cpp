@@ -16,7 +16,7 @@ void Player::init()
     this->color = PLAYER_COLOR;
     this->angle = 0.0f;
     this->lookingDir = {cosf(this->angle), sinf(this->angle)};
-    this->fov = 90;
+    this->fov = 1;
     for (int i = 0; i < this->fov; i++)
     {
         Rays *ray = new Rays{0, this->color, this->angle, Vector2Add(this->playerPos, Vector2Scale(this->lookingDir, 5))};
@@ -30,7 +30,7 @@ void Player::validateMovement()
 
 void Player::updateRays()
 {
-    float delta_angle = 0.01;
+    float delta_angle = 0.001;
     int i = 0, aux = 0;
     int max_amplitud = (int)fov / 2;
 
@@ -54,55 +54,100 @@ void Player::updateRays()
     }
 }
 
-void Player::updateVision(Rays* ray, WallCells* world)
+void Player::updateVision(Rays *ray, WallCells *world)
 {
-
-    float rx, ry;       // First intersection point (horizontal lines)
+    // Variables
+    float horizontalX, horizontalY, verticalX, verticalY; // First intersection point (horizontal/vertical lines)
+    float verticalDistance, horizDistance;
     int x0, y0;
     int dof = 0;
     int mx, my, mp;
-    float aTan;
     
-    
+
+    // --------- VERTICAL LINES -----------
+
+    int side = 0;
+    verticalDistance = 100000;
+    float Tan = -tanf(ray->angle);
+    if (cosf(ray->angle) > 0.001) {
+        verticalX = (((int)this->playerPos.x / MAP_RESOLUTION) * MAP_RESOLUTION) + MAP_RESOLUTION;
+        verticalY = (this->playerPos.x - verticalX) * Tan + this->playerPos.y;
+        x0 = MAP_RESOLUTION;
+        y0 = -x0 * Tan;
+    } // looking left
+    else if (cosf(ray->angle) < -0.001) {
+        verticalX = (((int)this->playerPos.x / MAP_RESOLUTION) * MAP_RESOLUTION) - 0.0001;
+        verticalY = (this->playerPos.y - verticalX) * Tan + this->playerPos.y;
+        x0 = -MAP_RESOLUTION;
+        y0 = -x0 * Tan;
+    } // looking right
+    else {
+        verticalX = this->playerPos.x;
+        verticalY = this->playerPos.y;
+        dof = COLUMNS;
+    } // looking up or down. no hit
+
+    while (dof < COLUMNS) {
+        mx = (int)(verticalX) / MAP_RESOLUTION;
+        my = (int)(verticalY) / MAP_RESOLUTION;
+        mp = my * COLUMNS + mx;
+        if (mp > 0 && mp < COLUMNS * ROWS && (world[mp].wall == true || world[mp].door == true)) {
+            dof = COLUMNS;
+            verticalDistance = cosf(ray->angle) * (verticalX - this->playerPos.x) - sinf(ray->angle) * (verticalY - this->playerPos.y);
+        } // hit
+        else {
+            verticalX += x0;
+            verticalY += y0;
+            dof++;
+        } // check next horizontal
+    }
+
     // --------- HORIZONTAL LINES -----------
 
-    aTan = -1/tanf(ray->angle);
+    dof = 0;
+    horizDistance = 100000;
+    float aTan = -1 / tanf(ray->angle);
 
-    if(ray->angle > PI) {       // Looking up
-        ry = (((int)this->playerPos.y / MAP_RESOLUTION) * MAP_RESOLUTION) - 0.001f;
-        rx = (this->playerPos.y - ry) * aTan + this->playerPos.x;
+    if (ray->angle > PI) { // Looking up
+        horizontalY = (((int)this->playerPos.y / MAP_RESOLUTION) * MAP_RESOLUTION) - 0.001f;
+        horizontalX = (this->playerPos.y - horizontalY) * aTan + this->playerPos.x;
         y0 = -MAP_RESOLUTION;
         x0 = -y0 * aTan;
     }
-    else if(ray->angle < PI) {       // Looking down
-        ry = (((int)this->playerPos.y / MAP_RESOLUTION) * MAP_RESOLUTION) + MAP_RESOLUTION;
-        rx = (this->playerPos.y - ry) * aTan + this->playerPos.x;
+    else if (ray->angle < PI) { // Looking down
+        horizontalY = (((int)this->playerPos.y / MAP_RESOLUTION) * MAP_RESOLUTION) + MAP_RESOLUTION;
+        horizontalX = (this->playerPos.y - horizontalY) * aTan + this->playerPos.x;
         y0 = MAP_RESOLUTION;
         x0 = -y0 * aTan;
     }
-    else if(ray->angle == 0 || ray->angle == PI) {
-        rx = this->playerPos.x;
-        ry = this->playerPos.y;
-        dof = 20;
+    else if (ray->angle == 0 || ray->angle == PI) {
+        horizontalX = this->playerPos.x;
+        horizontalY = this->playerPos.y;
+        dof = COLUMNS;
     }
 
-    while(dof < 20) {
-        mx = (int)(rx) / MAP_RESOLUTION; 
-        my= (int)(ry) / MAP_RESOLUTION; 
-        mp = my * COLUMNS + mx;                          
-        
-        if(mp>0 && mp < (COLUMNS * ROWS) && world[mp].wall == true) { 
-            dof = 20; 
-            ray->distance = cosf(ray->angle) * (rx - this->playerPos.x) - sinf(ray->angle)*(ry - this->playerPos.y);
-        }       //hit         
-        else { 
-            rx += x0; 
-            ry += y0; 
+    while (dof < COLUMNS) {
+        mx = (int)(horizontalX) / MAP_RESOLUTION;
+        my = (int)(horizontalY) / MAP_RESOLUTION;
+        mp = my * COLUMNS + mx;
+
+        if (mp > 0 && mp < (COLUMNS * ROWS) && (world[mp].wall == true || world[mp].door == true)) {
+            dof = 20;
+            horizDistance = cosf(ray->angle) * (horizontalX - this->playerPos.x) - sinf(ray->angle) * (horizontalY - this->playerPos.y);
+        } // hit
+        else {
+            horizontalX += x0;
+            horizontalY += y0;
             dof++;
-        }                                               //check next horizontal
+        } // check next horizontal
     }
 
-    ray->endPoint = {rx, ry};
+    if(verticalDistance < horizDistance) {
+        ray->endPoint = {verticalX, verticalY};
+    }
+    else {  // Horizontal distance < vertical distance
+        ray->endPoint = {horizontalX, horizontalY};
+    }
 
 }
 
@@ -143,7 +188,8 @@ void Player::update(WallCells *world)
 
     this->updateRays();
 
-    for(auto ray : this->rays) {
+    for (auto ray : this->rays)
+    {
         updateVision(ray, world);
     }
 
@@ -179,7 +225,7 @@ void Player::drawRays2D(float posX, float posY)
         float minimapPointX = TRANSFORM_POS_TO_MMAP(ray->endPoint.x);
         float minimapPointY = TRANSFORM_POS_TO_MMAP(ray->endPoint.y);
 
-        DrawLine(posX, posY, minimapPointX , minimapPointY, ray->color);
+        DrawLine(posX, posY, minimapPointX, minimapPointY, ray->color);
     }
 }
 
