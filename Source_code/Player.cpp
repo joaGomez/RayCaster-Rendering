@@ -16,7 +16,7 @@ void Player::init()
     this->color = PLAYER_COLOR;
     this->angle = 0.0f;
     this->lookingDir = {cosf(this->angle), sinf(this->angle)};
-    this->fov = 1;
+    this->fov = 90;
     for (int i = 0; i < this->fov; i++)
     {
         Rays *ray = new Rays{0, this->color, this->angle, Vector2Add(this->playerPos, Vector2Scale(this->lookingDir, 5))};
@@ -52,6 +52,58 @@ void Player::updateRays()
         }
         i++;
     }
+}
+
+void Player::updateVision(Rays* ray, WallCells* world)
+{
+
+    float rx, ry;       // First intersection point (horizontal lines)
+    int x0, y0;
+    int dof = 0;
+    int mx, my, mp;
+    float aTan;
+    
+    
+    // --------- HORIZONTAL LINES -----------
+
+    aTan = -1/tanf(ray->angle);
+
+    if(ray->angle > PI) {       // Looking up
+        ry = (((int)this->playerPos.y / MAP_RESOLUTION) * MAP_RESOLUTION) - 0.001f;
+        rx = (this->playerPos.y - ry) * aTan + this->playerPos.x;
+        y0 = -MAP_RESOLUTION;
+        x0 = -y0 * aTan;
+    }
+    else if(ray->angle < PI) {       // Looking down
+        ry = (((int)this->playerPos.y / MAP_RESOLUTION) * MAP_RESOLUTION) + MAP_RESOLUTION;
+        rx = (this->playerPos.y - ry) * aTan + this->playerPos.x;
+        y0 = MAP_RESOLUTION;
+        x0 = -y0 * aTan;
+    }
+    else if(ray->angle == 0 || ray->angle == PI) {
+        rx = this->playerPos.x;
+        ry = this->playerPos.y;
+        dof = 20;
+    }
+
+    while(dof < 20) {
+        mx = (int)(rx) / MAP_RESOLUTION; 
+        my= (int)(ry) / MAP_RESOLUTION; 
+        mp = my * COLUMNS + mx;                          
+        
+        if(mp>0 && mp < (COLUMNS * ROWS) && world[mp].wall == true) { 
+            dof = 20; 
+            ray->distance = cosf(ray->angle) * (rx - this->playerPos.x) - sinf(ray->angle)*(ry - this->playerPos.y);
+        }       //hit         
+        else { 
+            rx += x0; 
+            ry += y0; 
+            dof++;
+        }                                               //check next horizontal
+    }
+
+    ray->endPoint = {rx, ry};
+
 }
 
 void Player::update(WallCells *world)
@@ -118,54 +170,6 @@ void Player::update(WallCells *world)
     //     player->move(moveX, moveY);
     //     game_view->map1->vecVisibilityPolygonPoints.clear();
     // }
-}
-
-void Player::updateVision(Rays* ray, WallCells* world)
-{
-    // TODO: Fix bug, it freezes the program
-    /*float rx, ry;       // First intersection point (horizontal lines)
-    int x0, y0;
-    int dof = 0;
-    int mx, my, mp;
-    float aTan = 0;
-
-    if(ray->angle != 0) {
-        float aTan = -1/tanf(ray->angle);
-    }
-
-    if(ray->angle > PI) {       // Looking up
-        ry = (((int)this->playerPos.y / MAP_RESOLUTION) * MAP_RESOLUTION) - 0.001f;
-        rx = (this->playerPos.y - ry) * aTan + this->playerPos.x;
-        y0 = -MAP_RESOLUTION;
-        x0 = -y0 * aTan;
-    }
-    else if(ray->angle < PI) {       // Looking down
-        ry = (((int)this->playerPos.y / MAP_RESOLUTION) * MAP_RESOLUTION) + MAP_RESOLUTION;
-        rx = (this->playerPos.y - ry) * aTan + this->playerPos.x;
-        y0 = MAP_RESOLUTION;
-        x0 = -y0 * aTan;
-    }
-    else if(ray->angle == 0 || ray->angle == PI) {
-        rx = this->playerPos.x;
-        ry = this->playerPos.y;
-        dof = 20;
-    }
-
-    while(dof < 20) {
-        mx=(int)(rx)>>6; my=(int)(ry)>>6; mp = my * COLUMNS + mx;                          
-        if(mp>0 && mp < (COLUMNS * ROWS) && world[mp].wall == true) { 
-            dof = 8; 
-            ray->distance = cosf(ray->angle) * (rx - this->playerPos.x) - sinf(ray->angle)*(ry - this->playerPos.y);
-        }       //hit         
-        else { 
-            rx += x0; 
-            ry += y0; 
-            dof++;
-        }                                               //check next horizontal
-    }
-
-    ray->endPoint = {rx, ry};*/
-
 }
 
 void Player::drawRays2D(float posX, float posY)
